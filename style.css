@@ -1,0 +1,12 @@
+@import url("/home.css");
+h1{
+    color: red;
+}
+p{
+    background-color: green;
+}
+div{
+    width: 300px;
+    background-color: teal;
+    color: white;
+}
