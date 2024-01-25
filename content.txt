@@ -129,6 +129,39 @@ selector:pseduo-class{
     porperty:value
 }
 
+Pseduo Element Selectors:
+-----------------------------
+Pseduo element selector is used to style specified parts of an element.
+
+for e.g
+
+1. Style the first letter or line of an element.
+2. Insert the content before or after the content of an element.
+
+Selector::pseduo-element{
+    porperty: value
+}
+
+Note: ::first-line pseudo element can only be applied to block-level elements.
+
+In CSS2 and CSS1 pseduo class and pseduo elememts used to have single colon.
+In CSS3 this has changes and double colon is used for pseduo element.
+
+::before
+-----------------
+It can be used to insert some content before the content of our  element.
+::after
+-----------------
+It can be used to insert some content after the content of our  element.
+
+content
+----------
+content is a porperty in css which is used to generate the content dynamically.
+It can generate content before and after pseduo element.
+
+::select
+----------
+It matched the portion of an element selected by user.
 
 
 
