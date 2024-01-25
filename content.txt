@@ -1,3 +1,5 @@
+Completed video -7
+---------------------
 CSS 3
 --------
 Introduction
@@ -75,6 +77,60 @@ Advantages of css
 4. Superior style to HTML
 5. Multiple device compatibility
 6. Global webstandards
+
+Selectors:
+-----------
+1. Combinator Selectors
+Different Combinator
+1. Descendant Selector(space)
+2. Clild Selector(>)
+3. Adjacent Sibling selector(+)
+4. General Sibling selector
+
+Descendant Selector
+--------------------
+Matches all element that are desecandants of a specified element.
+
+Father - Daughter
+Grand Father - Father  - Son
+
+Child Selector
+----------------
+Matches all elements that are children of specified
+elements.
+
+Adjacent Sibling Selector(+)
+----------------------------
+The Adjacent Sibling selector selects all the elememts that are adjacent
+Siblings of specified element.
+
+Sibling - Must have the same parent element.
+
+adjacent - Immediately following
+
+With adjacent Sibling Combinator only one element will be styled
+
+General Sibling Selector (~) tilde
+------------------------------------
+The general Sibling selector selects all elements that are
+Siblings of a specified element.
+
+With the general Sibling combinator one or more elements will be styled.
+
+Pseduo Class Selectors
+-------------------------
+Matches components based on an additional condition
+
+allows you to style the dynamic state of an element
+
+for e.g Hover, active and focus
+
+selector:pseduo-class{
+    porperty:value
+}
+
+
+
 
 
 
