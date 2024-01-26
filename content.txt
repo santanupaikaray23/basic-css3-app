@@ -1,4 +1,4 @@
-Completed video -16
+Completed video -17
 ---------------------
 CSS 3
 --------
@@ -177,6 +177,22 @@ Will apply colors to your elements
 2. HTML5 Color names - 
 3. Hexadecimal colors - Represended with 6 digits
 4. RGB- RED GREEN BLUE -  rgb(23,23,45) or rgb(15%, 35%, 45%)
+
+Outpline:
+-----------
+An outline is a line that is drawn around elements outside the border
+to make the element stand out.
+
+Outline is not part of element's dimensions.
+
+Elements total width and hieght is not affected by the width 
+of the outline.
+
+outline-style - sets the style of outline
+outline-Color - sets the color of an outline
+outline-width - sets width of an outline
+outline-offset - specifies the cpace between outline and border.
+outline
 
 
 
