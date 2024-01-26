@@ -1,4 +1,4 @@
-Completed video -7
+Completed video -12
 ---------------------
 CSS 3
 --------
@@ -163,6 +163,20 @@ It can generate content before and after pseduo element.
 ----------
 It matched the portion of an element selected by user.
 
+comments
+-------------
+Wlll help you to comment your code
+Syntax: /*commented code*/
+
+colors
+------------
+Will apply colors to your elements
+
+4 ways to apply colors
+1. Color name - RED, blue, green
+2. HTML5 Color names - 
+3. Hexadecimal colors - Represended with 6 digits
+4. RGB- RED GREEN BLUE -  rgb(23,23,45) or rgb(15%, 35%, 45%)
 
 
 
