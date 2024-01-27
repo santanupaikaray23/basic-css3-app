@@ -1,4 +1,4 @@
-Completed video -17 part1
+Completed video -18 part1
 ---------------------
 CSS 3
 --------
@@ -197,6 +197,8 @@ position
 ---------
 specifies the type of positioning method used for an element.
 
+positions your element with help of top, left, bottom, right
+
 1. Static
 2. Relative
 3. Fixed
@@ -211,7 +213,15 @@ Static positioned elememts are not affected by the top, Bottom, left, right.
 
 Always position according to the normal flow of page. 
 
+Document flow
+----------------
+Order of code elements
 
+Display
+position
+flot
+
+top-margin-top
 
 
 
