@@ -1,4 +1,4 @@
-Completed video -17
+Completed video -17 part1
 ---------------------
 CSS 3
 --------
@@ -192,7 +192,26 @@ outline-style - sets the style of outline
 outline-Color - sets the color of an outline
 outline-width - sets width of an outline
 outline-offset - specifies the cpace between outline and border.
-outline
+
+position
+---------
+specifies the type of positioning method used for an element.
+
+1. Static
+2. Relative
+3. Fixed
+4. Absolute
+5. Sticky
+
+position : Static
+-------------------
+HTML elements are positoned static by default.
+
+Static positioned elememts are not affected by the top, Bottom, left, right.
+
+Always position according to the normal flow of page. 
+
+
 
 
 
