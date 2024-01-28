@@ -1,4 +1,4 @@
-Completed video -18 part1
+Completed video -20 
 ---------------------
 CSS 3
 --------
@@ -222,6 +222,80 @@ position
 flot
 
 top-margin-top
+
+Gradients:
+----------------
+Gradients displays the combination of two or more colors.
+
+Types:
+-----------
+linear Gradient
+Radial Gradient
+
+Linear Gradient(top-to-bottom)-default
+---------------------------------------
+Used to arrange two or more colors in linear format.
+
+background-image is the one which helps with Gradients.
+
+1st ways
+------------
+background: red;
+background: linear-gradient(#FF0000, yellow);
+
+2nd way
+---------
+background-color : red /* cab treated like fallabck*/
+background-image : linear-gradent (crimson,white)
+
+Linear Gradient :
+---------------------
+1. It is most common and useful type
+2.Gradient axis can go left-to-right or top-to-botton
+3.to make it left to right, You pass a additional parameter which starts with 
+word "to right".
+
+Color-stops
+----------------
+You can decide where you want any perticular color to start.
+
+Radial Gradient
+----------------------
+It will start at a single point and emanate outwards.
+
+The default is - first color which starts in the center of the Element
+and fade to the end color towards edge of the element.
+
+Transistions
+----------------
+Allow you to change property values smoothly
+
+transition
+
+transition-delay
+transation-duration
+transation-property
+transation-timely-function
+
+How to use
+--------------
+Css property you want to add an effect to
+duration of the effect
+
+transition-timely-function
+-------------------------------
+specifies the speed curve of the transition effect
+
+ease
+Linear
+ease-in
+ease-out
+ease-in-out
+
+
+
+
+
 
 
 
