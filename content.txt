@@ -292,6 +292,63 @@ ease-in
 ease-out
 ease-in-out
 
+Transformations
+------------------
+Allows us to move, rotate, scale and skew elememts.
+
+transform - is the property
+
+2d Transformations methods
+
+1. transalate() -  moves an element from its current position (according to X and Y axis)
+2.rotate() -  rotate your element based on angle
+
+CSS Variables
+----------------
+Gives us the mechanism to reuse and easily change the repeatedly occuring css propertyties.
+To declare CSS VARIABLE we will have to use doulble dash before the name of the variable.
+
+body{
+    --english-green-color: #00FF00
+}
+In order to use that variable we can use var() function
+
+.my-green-component{
+    background-color:var(--english-green-color: #00FF00)
+}
+The easiest way to manage our css variables is by decalaring them into :root psedo class
+Having them in the :root ensure that all selectors will gain access to these variables.
+
+:root{
+    --english-green-color: #00FF00
+    
+}
+:root
+------------
+Pseudo class matches the root element of the tree representing the document.
+
+In HTML :root represents the <html>element and is identical to selecter html.
+
+complex websites have very large amounts of CSS and ofter with lot of repeated value.
+
+Custom properties allows a value to be stored in one place then referenced in
+multiple other places
+
+An Additional benifit is semantic identifiers
+
+for e.g. --main-text-color this is easier to undersatand than #00FF00
+
+Media Queries
+-------------------
+Allows us to customize the presentation of our web pages for a specific
+ragne of devices like mobile phones, tablets, desktops etc..
+without any change in the markup.
+
+Media query is a logical expression can be resolve to true or false
+
+Media query will be true if the media type specified in the media query
+matches the type of device in which html content being display on.
+
 
 
 
